@@ -1,12 +1,10 @@
 ﻿using System;
 
-// lab1
 class Test1
 {
 static void Main()
     {
-        /* task1 
-
+        /* #1 
         int a = Convert.ToInt32(Console.ReadLine());
         int b = Convert.ToInt32(Console.ReadLine());
 
@@ -18,7 +16,7 @@ static void Main()
 
         Console.WriteLine($"После замены: {a} {b}"); */
 
-        /*  task2
+        /*  #2
         int first_number = Convert.ToInt32(Console.ReadLine());
         int second_number = Convert.ToInt32(Console.ReadLine());
 
@@ -28,7 +26,7 @@ static void Main()
         Console.WriteLine($"Наименьшее число: {min}");
         Console.WriteLine($"Наибольшее число: {max}"); */
 
-        // task3
+        /* #3
         Console.Write("Введите количество грядок : ");
 
         int n = Convert.ToInt32(Console.ReadLine());
@@ -37,7 +35,7 @@ static void Main()
         int l = 3;
         int p = 5;
 
-        int L = n * ( 2 * (m + l)) + 2 * n * p + n * l * (n - 1);
+        int L = n * ( 2 * (m + l)) + 2 * n * p + n * l * (n - 1); */
 
         Console.WriteLine(L);
         Console.ReadLine();
